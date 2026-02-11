@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex: 1 1 auto;;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
