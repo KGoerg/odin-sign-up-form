@@ -24,7 +24,8 @@ body {
     justify-content: flex-end;
     gap: 50px;
     background: rgb(243, 239, 239);
-    padding: 150px 50px 0px 50px;
+    padding: 50px 50px 0px 50px;
+    flex: 1 1 auto;
 }
 
 h1 {
@@ -35,3 +36,13 @@ h1 {
     margin-bottom: 50px;
 }
 
+.sign-up {
+    /* May need to edit the margin depending on how flex-ing the form goes */
+    margin-left: 50px;
+    flex: 1 1 auto;
+}
+
+label,input{
+  display:flex;
+  flex-direction:column;
+}
