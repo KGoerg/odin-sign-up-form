@@ -12,6 +12,10 @@ body {
     background: teal;
 }
 
+.container-image {
+    flex: 1 1 auto;
+}
+
 .right-container {
     display: flex;
     flex-direction: column;
