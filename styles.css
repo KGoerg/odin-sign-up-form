@@ -8,8 +8,10 @@ body {
 }
 
 .left-container {
-    width: 600px;
-    background: teal;
+    width: 500px;
+    background: url(/home/kgoerg/repos/odin-sign-up-form/images/leaves.jpg);
+    background-size: cover;
+    flex-shrink: 0;
 }
 
 .container-image {
