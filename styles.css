@@ -14,11 +14,7 @@ body {
     flex-shrink: 0;
 }
 
-.container-image {
-    flex: 1 1 auto;
-}
-
-.container-image p:first-child {
+.left-container p:first-child {
     color: white;
     background: rgba(0, 0, 0, 0.5);
     text-align: center;
