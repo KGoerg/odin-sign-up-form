@@ -18,6 +18,16 @@ body {
     flex: 1 1 auto;
 }
 
+.container-image p:first-child {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 4rem;
+    position: relative;
+    top: 150px;
+
+}
+
 .right-container {
     display: flex;
     flex-direction: column;
