@@ -23,12 +23,13 @@ body {
 .image-container {
     display: flex;
     justify-content: flex-end;
+    width: 200px;
 }
 
 .black-background {
     display: flex;
     background: rgba(0, 0, 0, 0.5);
-    justify-content: center;
+    /* justify-content: flex-start; */
     align-items: center;
     position: relative;
     top: 200px;
