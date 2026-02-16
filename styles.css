@@ -29,6 +29,17 @@ body {
     font-size: 4rem;
 }
 
+.left-container sub {
+    position: relative;
+    top: 800px;
+    left: 150px;
+    color: white;
+}
+
+.left-container a {
+    color: white;
+}
+
 .right-container {
     display: flex;
     flex-direction: column;
@@ -56,7 +67,7 @@ h1 {
 .sign-up {
     /* May need to edit the margin depending on how flex-ing the form goes */
     margin-left: 50px;
-    flex: 1 1 auto;
+    flex: 3 1 auto;
 }
 
 form fieldset {
