@@ -109,20 +109,33 @@ body {
 
 label {
     display: block;
+    color: rgb(51, 51, 51);
 }
 
 input {
     height: 30px;
     width: 300px;
     border-radius: 5px;
+    border-color: #E5E7EB;
     margin-bottom: 20px;
     font-size: inherit;
+}
+
+input[type="email"]:invalid,
+input[type="password"]:invalid {
+    border-color: red;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid blue;
+    box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.1); 
 }
 
 .account-management {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    flex-grow: 1;
     background: white;
     padding-left: 50px;
     background: rgb(231, 231, 231);
