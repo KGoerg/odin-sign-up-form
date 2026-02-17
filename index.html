@@ -24,29 +24,30 @@
         <div class="sign-up">
             <h1>Let's do this!</h1>
             <form action="" method="get">
-                <fieldset class="name">
+                <div class="left-sign-up">
                     <label for="first_name">FIRST NAME</label>
                     <input type="text" id="first_name" name="first_name">
 
-                    <label for="last_name">LAST NAME</label>
-                    <input type="text" id="last_name" name="last_name">
-                </fieldset>
-                <fieldset class="contact-info">
                     <label for="email">EMAIL</label>
                     <input type="email" name="email" id="email">
 
-                    <label for="phone_number">PHONE NUMBER</label>
-                    <input type="tel" id="phone_number" name="phone_number">
-                </fieldset>
-                <fieldset class="password">
                     <label for="password">PASSWORD</label>
                     <input type="password" id="password" name="password">
+                </div>
+                <div class="right-sign-up">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name" name="last_name">
+
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input type="tel" id="phone_number" name="phone_number">
 
                     <label for="confirm_password">CONFIRM PASSWORD</label>
                     <input type="password" name="confirm_password" id="confirm_password">
-                </fieldset>
-                <button type="submit">Create Account</button>
-                <p>Already have an account? <a href="https://google.com">Log in</a></p>
+                </div>
+                <div class="account-management">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="https://google.com">Log in</a></p>
+                </div>
             </form>
         </div>
     </div>
