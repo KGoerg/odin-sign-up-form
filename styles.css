@@ -30,6 +30,7 @@ body {
     justify-content: space-between;
 }
 
+/* Need to figure out how to properly center image and text in black div */
 .image-container {
     display: flex;
     justify-content: flex-end;
