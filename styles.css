@@ -95,6 +95,10 @@ body {
     background: rgb(231, 231, 231);
 }
 
+.sign-up form {
+    flex: 1 1 auto;
+}
+
 .sign-up h1:first-child,
 .input-fields {
     padding: 10px 0 0 50px;
