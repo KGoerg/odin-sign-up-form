@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Norse';
-    src: url('Norse-Bold.woff2') format('woff2'),
-        url('Norse-Bold.woff') format('woff');
+    src: url('../odin-sign-up-form/transfonter.org-20260216-182935/Norse-Bold.woff2') format('woff2'),
+        url('../odin-sign-up-form/transfonter.org-20260216-182935/Norse-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -40,15 +40,23 @@ body {
 .black-background {
     display: flex;
     background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
     align-items: center;
     position: relative;
     top: 200px;
-    padding: 10px;
+}
+
+.black-background img {
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 200px;
+    padding: 20px;
 }
 
 .black-background p {
     color: white;
-    font-size: 4rem;
+    font-size: 7rem;
     /* Font isn't working, need to figure out why... */
     font-family: "Norse";
 }
