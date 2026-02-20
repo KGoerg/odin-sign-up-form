@@ -20,21 +20,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Left-side of page */
 .left-container {
     width: 600px;
     background: url(/home/kgoerg/repos/odin-sign-up-form/images/leaves.jpg);
     background-size: cover;
-    flex-shrink: 0;
+    min-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-/* Need to figure out how to properly center image and text in black div */
-.image-container {
-    display: flex;
-    justify-content: flex-end;
-    width: 200px;
 }
 
 .black-background {
@@ -57,7 +51,6 @@ body {
 .black-background p {
     color: white;
     font-size: 7rem;
-    /* Font isn't working, need to figure out why... */
     font-family: "Norse";
 }
 
@@ -71,19 +64,21 @@ body {
     color: white;
 }
 
+/* Right side of page */
 .right-container {
     display: flex;
     flex-direction: column;
     width: 100vw;
 }
 
+/* Top right section */
 .service-description {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     font-size: 1rem;
     gap: 50px;
-    background: rgb(231, 231, 231);
+    background: whitesmoke;
     padding: 30px 50px 0px 50px;
     flex: 1 1 auto;
 }
@@ -96,21 +91,23 @@ body {
     margin-bottom: 50px;
 }
 
+/* Middle right section */
 .sign-up {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
-    background: rgb(231, 231, 231);
-}
-
-.sign-up form {
-    flex: 1 1 auto;
+    background: whitesmoke;
 }
 
 .sign-up h1:first-child,
 .input-fields {
     padding: 10px 0 0 50px;
-    background-color: whitesmoke;
+    background-color: white;
+}
+
+.sign-up h1:first-child {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .top-sign-up,
@@ -132,6 +129,7 @@ body {
     flex-direction: column;
     box-shadow: 0 8px 3px 1px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 label {
@@ -144,7 +142,7 @@ input {
     border-radius: 5px;
     border-color: #E5E7EB;
     margin-bottom: 20px;
-    font-size: inherit;
+    font-size: 1.2rem;
 }
 
 input[type="email"]:invalid,
@@ -158,13 +156,14 @@ input:focus {
     box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.1); 
 }
 
+/* Bottom right section */
 .account-management {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     background: white;
     padding-left: 50px;
-    background: rgb(231, 231, 231);
+    background: whitesmoke;
 }
 
 .account-management button {
