@@ -23,7 +23,7 @@ body {
 /* Left-side of page */
 .left-container {
     width: 600px;
-    background: url(/home/kgoerg/repos/odin-sign-up-form/images/leaves.jpg);
+    background: url(../odin-sign-up-form/images/leaves.jpg);
     background-size: cover;
     min-width: 600px;
     display: flex;
